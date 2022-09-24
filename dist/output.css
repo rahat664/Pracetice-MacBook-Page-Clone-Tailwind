@@ -6,6 +6,14 @@
   display: block;
 }
 
+.apple-at-work{
+  background-image: url(https://www.apple.com/v/mac/home/bq/images/overview/get-more/business__dhhbnntkcwuq_large.jpg);
+}
+
+.apple-and-edu{
+  background-image: url(https://www.apple.com/v/mac/home/bq/images/overview/get-more/education__bq047y5fu7n6_large.jpg);
+}
+
 /*
 ! tailwindcss v3.1.8 | MIT License | https://tailwindcss.com
 */
@@ -579,6 +587,14 @@ video {
   left: 73px;
 }
 
+.top-56{
+  top: 14rem;
+}
+
+.right-5{
+  right: 1.25rem;
+}
+
 .top-12{
   top: 3rem;
 }
@@ -587,80 +603,20 @@ video {
   left: 4rem;
 }
 
-.-bottom-\[120px\]{
-  bottom: -120px;
+.-bottom-\[170px\]{
+  bottom: -170px;
 }
 
 .-right-\[80px\]{
   right: -80px;
 }
 
-.-top-1{
-  top: -0.25rem;
-}
-
-.left-\[150px\]{
-  left: 150px;
-}
-
-.-bottom-\[130px\]{
-  bottom: -130px;
-}
-
-.-bottom-\[150px\]{
-  bottom: -150px;
-}
-
-.-bottom-\[170px\]{
-  bottom: -170px;
-}
-
-.-bottom-\[10px\]{
-  bottom: -10px;
-}
-
-.-bottom-\[200px\]{
-  bottom: -200px;
-}
-
-.-bottom-\[190px\]{
-  bottom: -190px;
-}
-
-.top-1{
-  top: 0.25rem;
-}
-
-.-top-2{
-  top: -0.5rem;
-}
-
 .-top-3{
   top: -0.75rem;
 }
 
-.top-0{
-  top: 0px;
-}
-
-.top-16{
-  top: 4rem;
-}
-
-.top-60{
-  top: 15rem;
-}
-
-.top-56{
-  top: 14rem;
-}
-
-.right-2{
-  right: 0.5rem;
-}
-
-.right-5{
-  right: 1.25rem;
+.left-\[150px\]{
+  left: 150px;
 }
 
 .my-3{
@@ -681,6 +637,11 @@ video {
 .mx-7{
   margin-left: 1.75rem;
   margin-right: 1.75rem;
+}
+
+.my-\[78px\]{
+  margin-top: 78px;
+  margin-bottom: 78px;
 }
 
 .mb-6{
@@ -827,6 +788,10 @@ video {
   margin-top: 5rem;
 }
 
+.mb-\[66px\]{
+  margin-bottom: 66px;
+}
+
 .mb-\[13px\]{
   margin-bottom: 13px;
 }
@@ -851,14 +816,6 @@ video {
   margin-top: 60px;
 }
 
-.mb-\[\]{
-  margin-bottom: ;
-}
-
-.mb-\[66px\]{
-  margin-bottom: 66px;
-}
-
 .flex{
   display: flex;
 }
@@ -873,6 +830,10 @@ video {
 
 .h-\[135\]{
   height: 135;
+}
+
+.h-\[600px\]{
+  height: 600px;
 }
 
 .w-20{
@@ -953,6 +914,10 @@ video {
 
 .w-\[645px\]{
   width: 645px;
+}
+
+.w-\[1293px\]{
+  width: 1293px;
 }
 
 .min-w-\[238px\]{
@@ -1277,10 +1242,6 @@ video {
   text-align: center;
 }
 
-.text-end{
-  text-align: end;
-}
-
 .text-xs{
   font-size: 0.75rem;
   line-height: 1rem;
@@ -1336,6 +1297,10 @@ video {
 .text-3xl{
   font-size: 1.875rem;
   line-height: 2.25rem;
+}
+
+.text-\[14px\]{
+  font-size: 14px;
 }
 
 .font-normal{
@@ -1421,6 +1386,11 @@ video {
 .text-\[\#dcdcde\]{
   --tw-text-opacity: 1;
   color: rgb(220 220 222 / var(--tw-text-opacity));
+}
+
+.text-\[\#0066cc\]{
+  --tw-text-opacity: 1;
+  color: rgb(0 102 204 / var(--tw-text-opacity));
 }
 
 .decoration-\[\#08c\]{

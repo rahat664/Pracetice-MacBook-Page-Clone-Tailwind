@@ -6,6 +6,14 @@
     display: block;
 }
 
+.apple-at-work{
+    background-image: url(https://www.apple.com/v/mac/home/bq/images/overview/get-more/business__dhhbnntkcwuq_large.jpg);
+}
+
+.apple-and-edu{
+    background-image: url(https://www.apple.com/v/mac/home/bq/images/overview/get-more/education__bq047y5fu7n6_large.jpg);
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
